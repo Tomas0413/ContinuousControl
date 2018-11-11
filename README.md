@@ -1,5 +1,11 @@
 # Project Details
 
+The agent is a double-jointed arm. The goal is to move to a target location.
+
+States: 33
+Actions: 4 (torque applicable to two joints)
+Rewards: +0.04 for each step that the agent's hand moves toward the goal location
+
 # Getting Started
 
 Open ContinuousControl.ipynb Jupyter notebook, it also contains a section on how to install the necessary dependencies.
