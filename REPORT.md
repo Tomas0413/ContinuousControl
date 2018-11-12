@@ -18,6 +18,12 @@ Hyperparameters (defined in ddpg_agent.py)
 * WEIGHT_DECAY = 0        (L2 weight decay)
 * UPDATE_EVERY = 1        (how many steps to take before updating target networks)
 
+## Actor neural network
+
+The Actor neural network consists of three fully connected (FC) layers.
+
+## Critic neural network
+
 
 # Plot of Rewards
 
