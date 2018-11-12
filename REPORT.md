@@ -20,10 +20,17 @@ Hyperparameters (defined in ddpg_agent.py)
 
 ## Actor neural network
 
-The Actor neural network consists of three fully connected (FC) layers.
+* The Actor neural network consists of three fully connected (FC) layers.
+* The input has 33 channels (states)
+* The input and output channels between layers are 128
+* The output has 4 channels (actions)
 
 ## Critic neural network
 
+* The Critic neural network consists of three fully connected (FC) layers.
+* The input has 33 channels (states)
+* The input and output channels between layers are 128, except the input for the second layer is 128 + 4 (actions) 
+* The output has 1 channel
 
 # Plot of Rewards
 
