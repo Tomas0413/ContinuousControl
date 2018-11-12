@@ -18,14 +18,14 @@ Hyperparameters (defined in ddpg_agent.py)
 * WEIGHT_DECAY = 0        (L2 weight decay)
 * UPDATE_EVERY = 1        (how many steps to take before updating target networks)
 
-## Actor neural network
+### Actor neural network
 
 * The Actor neural network consists of three fully connected (FC) layers.
 * The input has 33 channels (states)
 * The input and output channels between layers are 128
 * The output has 4 channels (actions)
 
-## Critic neural network
+### Critic neural network
 
 * The Critic neural network consists of three fully connected (FC) layers.
 * The input has 33 channels (states)
