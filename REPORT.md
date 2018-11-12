@@ -34,7 +34,7 @@ Hyperparameters (defined in ddpg_agent.py)
 
 # Plot of Rewards
 
-This chart illustrates the rewards received per episode. We consider the problem solved when the agent reaches at least +30 points over 100 episodes. In our case, it took 350 episodes to achieve this goal.
+This chart illustrates the rewards received per episode. We consider the problem solved when the agent reaches at least +30 points over 100 episodes. In our case, it took 345 episodes to achieve this goal.
 
 ![Rewards per episode](rewards_per_episode.png)
 
