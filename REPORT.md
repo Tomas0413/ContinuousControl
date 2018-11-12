@@ -26,3 +26,7 @@ This chart illustrates the rewards received per episode. We consider the problem
 ![Rewards per episode](rewards_per_episode.png)
 
 # Ideas for Future Work
+
+* I would like to use [Tensorboard for PyTorch](https://github.com/lanpa/tensorboardX)
+* I would like train an the Version 2 Reacher environment (20 Agents)
+* I would like to spend some time and compare the performance of the agent to [Distributed Distributional Deterministic Policy Gradients (D4PG)](https://openreview.net/forum?id=SyZipzbCb) algorithm
